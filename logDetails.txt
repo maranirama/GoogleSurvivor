@@ -1,0 +1,923 @@
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "programDescription": "Selenium",
+    "programName": "Jul23-GoogleSurvivors-SDET--246081480",
+    "programStatus": "Active"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:23 GMT
+Via: 1.1 vegur
+
+{
+    "programId": 15634,
+    "programName": "Jul23-GoogleSurvivors-SDET--246081480",
+    "programDescription": "Selenium",
+    "programStatus": "Active",
+    "creationTime": "2023-07-26T18:49:24.045+00:00",
+    "lastModTime": "2023-07-26T18:49:24.045+00:00"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "programDescription": "Postman",
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434",
+    "programStatus": "Active"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:25 GMT
+Via: 1.1 vegur
+
+{
+    "programId": 15635,
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434",
+    "programDescription": "Postman",
+    "programStatus": "Active",
+    "creationTime": "2023-07-26T18:49:25.995+00:00",
+    "lastModTime": "2023-07-26T18:49:25.995+00:00"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1170351650",
+    "batchNoOfClasses": "10",
+    "batchDescription": "SeleniumBatch1",
+    "batchStatus": "active",
+    "programId": "15635"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:25 GMT
+Via: 1.1 vegur
+
+{
+    "batchId": 8864,
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1170351650",
+    "batchDescription": "SeleniumBatch1",
+    "batchStatus": "active",
+    "batchNoOfClasses": 10,
+    "programId": 15635,
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1561097071",
+    "batchNoOfClasses": "6",
+    "batchDescription": "PostmanBatch1",
+    "batchStatus": "active",
+    "programId": "15635"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:27 GMT
+Via: 1.1 vegur
+
+{
+    "batchId": 8865,
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1561097071",
+    "batchDescription": "PostmanBatch1",
+    "batchStatus": "active",
+    "batchNoOfClasses": 6,
+    "programId": 15635,
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/roleStatus
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userLinkedinUrl": "url1",
+    "userVisaStatus": "H1B",
+    "userEduPg": "MCA",
+    "userLastName": "Admin",
+    "userMiddleName": "P",
+    "userPhoneNumber": "1044856601",
+    "userLocation": "Chicago",
+    "userEduUg": "B.Sc.",
+    "userFirstName": "GoogleSurvivors-2",
+    "userRoleMaps": [
+        {
+            "userRoleStatus": "Active",
+            "roleId": "R01"
+        }
+    ],
+    "userComments": "This user is Admin",
+    "userTimeZone": "CST"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:28 GMT
+Via: 1.1 vegur
+
+{
+    "userId": "U10636",
+    "userFirstName": "GoogleSurvivors-2",
+    "userLastName": "Admin",
+    "userMiddleName": "P",
+    "userPhoneNumber": 1044856601,
+    "userLocation": "Chicago",
+    "userTimeZone": "CST",
+    "userLinkedinUrl": "url1",
+    "userEduUg": "B.Sc.",
+    "userEduPg": "MCA",
+    "userComments": "This user is Admin",
+    "userVisaStatus": "H1B"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/roleStatus
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userLinkedinUrl": "url2",
+    "userVisaStatus": "H4-EAD",
+    "userEduPg": "M.Tech",
+    "userLastName": "Staff",
+    "userMiddleName": "J",
+    "userPhoneNumber": "3736017144",
+    "userLocation": "Portland",
+    "userEduUg": "B.Tech",
+    "userFirstName": "GoogleSurvivors-1",
+    "userRoleMaps": [
+        {
+            "userRoleStatus": "Active",
+            "roleId": "R02"
+        }
+    ],
+    "userComments": "This user is Staff",
+    "userTimeZone": "PST"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:28 GMT
+Via: 1.1 vegur
+
+{
+    "userId": "U10637",
+    "userFirstName": "GoogleSurvivors-1",
+    "userLastName": "Staff",
+    "userMiddleName": "J",
+    "userPhoneNumber": 3736017144,
+    "userLocation": "Portland",
+    "userTimeZone": "PST",
+    "userLinkedinUrl": "url2",
+    "userEduUg": "B.Tech",
+    "userEduPg": "M.Tech",
+    "userComments": "This user is Staff",
+    "userVisaStatus": "H4-EAD"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "graderId": "U10637",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "comments": "Easy Task",
+    "pathAttachment4": "/Users/srihari/API/file4.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "createdBy": "U10637",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "dueDate": "2023-07-31T14:49:29",
+    "assignmentDescription": "Assignment for webdrivers",
+    "batchId": "8865",
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--546332816"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:29 GMT
+Via: 1.1 vegur
+
+{
+    "assignmentId": 4588,
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--546332816",
+    "assignmentDescription": "Assignment for webdrivers",
+    "comments": "Easy Task",
+    "dueDate": "2023-07-31T14:49:29.000+00:00",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "pathAttachment4": "/Users/srihari/API/file4.json",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "batchId": 8865,
+    "createdBy": "U10637",
+    "graderId": "U10637"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "graderId": "U10637",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "comments": "Difficult Task",
+    "pathAttachment4": "/Users/srihari/API/file3.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "createdBy": "U10637",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "dueDate": "2023-07-31T14:49:30",
+    "assignmentDescription": "chaining request Assignment",
+    "batchId": "8865",
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--1952646253"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:30 GMT
+Via: 1.1 vegur
+
+{
+    "assignmentId": 4589,
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--1952646253",
+    "assignmentDescription": "chaining request Assignment",
+    "comments": "Difficult Task",
+    "dueDate": "2023-07-31T14:49:30.000+00:00",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "pathAttachment4": "/Users/srihari/API/file3.json",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "batchId": 8865,
+    "createdBy": "U10637",
+    "graderId": "U10637"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "subPathAttach1": "file1.json",
+    "subComments": "completed",
+    "subDesc": "Assignment submitted",
+    "subPathAttach2": "file2.json",
+    "assignmentId": "4589",
+    "userId": "U10637",
+    "subPathAttach3": "file3.json",
+    "gradedDateTime": "2023-08-03 14:49:30",
+    "subPathAttach4": "file4.json",
+    "subDateTime": "2023-07-28 14:49:30",
+    "subPathAttach5": "file5.json",
+    "gradedBy": "U10637",
+    "grade": "1"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:30 GMT
+Via: 1.1 vegur
+
+{
+    "submissionId": 1829,
+    "assignmentId": 4589,
+    "userId": "U10637",
+    "subDesc": "Assignment submitted",
+    "subComments": "completed",
+    "subPathAttach1": "file1.json",
+    "subPathAttach2": "file2.json",
+    "subPathAttach3": "file3.json",
+    "subPathAttach4": "file4.json",
+    "subPathAttach5": "file5.json",
+    "subDateTime": "07-26-2023 18:49:31",
+    "gradedBy": null,
+    "gradedDateTime": null,
+    "grade": -1
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/1829
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "subPathAttach1": "file1.json",
+    "subComments": "completed",
+    "subDesc": "Submitted",
+    "subPathAttach2": "file2.json",
+    "assignmentId": "4589",
+    "userId": "U10637",
+    "subPathAttach3": "file3.json",
+    "gradedDateTime": "2023-08-03 14:49:30",
+    "subPathAttach4": "file4.json",
+    "subDateTime": "2023-07-28 14:49:30",
+    "subPathAttach5": "file5.json",
+    "gradedBy": "U10637",
+    "grade": "1"
+}
+HTTP/1.1 400 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:30 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Assignment with ID 4589 is not part of this submission",
+    "success": false
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignments/4589
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "graderId": "U10637",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "comments": "aaaa",
+    "pathAttachment4": "/Users/srihari/API/file4.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "dueDate": "2023-07-31T14:49:30.000+00:00",
+    "assignmentDescription": "chaining request Assignment",
+    "batchId": "8865",
+    "assignmentId": "4589",
+    "createdBy": "U10637",
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--1952646253"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:32 GMT
+Via: 1.1 vegur
+
+{
+    "assignmentId": 4589,
+    "assignmentName": "Jul23-GoogleSurvivors-SDET-RestAPI--1952646253",
+    "assignmentDescription": "chaining request Assignment",
+    "comments": "aaaa",
+    "dueDate": "2023-07-31T14:49:30.000+00:00",
+    "pathAttachment1": "/Users/srihari/API/file1.json",
+    "pathAttachment2": "/Users/srihari/API/file2.json",
+    "pathAttachment3": "/Users/srihari/API/file3.json",
+    "pathAttachment4": "/Users/srihari/API/file4.json",
+    "pathAttachment5": "/Users/srihari/API/file5.json",
+    "batchId": 8865,
+    "createdBy": "U10637",
+    "graderId": "U10637"
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/U10637
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userLinkedinUrl": "url2",
+    "userVisaStatus": "H4-EAD",
+    "userEduPg": "M.Tech",
+    "userLastName": "Staff",
+    "userMiddleName": "J",
+    "userPhoneNumber": "1455374771",
+    "userLocation": "Portland",
+    "userEduUg": "B.Tech",
+    "userFirstName": "GoogleSurvivors-7",
+    "userComments": "This user is Staff",
+    "userId": "U10637",
+    "userTimeZone": "PST"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:32 GMT
+Via: 1.1 vegur
+
+{
+    "userId": "U10637",
+    "userFirstName": "GoogleSurvivors-7",
+    "userLastName": "Staff",
+    "userMiddleName": "J",
+    "userPhoneNumber": 1455374771,
+    "userLocation": "Portland",
+    "userTimeZone": "PST",
+    "userLinkedinUrl": "url2",
+    "userEduUg": "B.Tech",
+    "userEduPg": "M.Tech",
+    "userComments": "This user is Staff",
+    "userVisaStatus": "H4-EAD"
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/8865
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1401569444",
+    "batchNoOfClasses": "6",
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434",
+    "batchId": "8865",
+    "batchDescription": "PostmanBatch1",
+    "batchStatus": "active",
+    "programId": "15635"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:32 GMT
+Via: 1.1 vegur
+
+{
+    "batchId": 8865,
+    "batchName": "Jul23-GoogleSurvivors-SDET-SDET01--1401569444",
+    "batchDescription": "PostmanBatch1",
+    "batchStatus": "active",
+    "batchNoOfClasses": 6,
+    "programId": 15635,
+    "programName": "Jul23-GoogleSurvivors-SDET-578751434"
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/program/Jul23-GoogleSurvivors-SDET-578751434
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "programDescription": "Jul23-GoogleSurvivors-SDET-6",
+    "programName": "Jul23-GoogleSurvivors-SDET-8",
+    "programStatus": "inactive"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:32 GMT
+Via: 1.1 vegur
+
+{
+    "programId": 15635,
+    "programName": "Jul23-GoogleSurvivors-SDET-8",
+    "programDescription": "Jul23-GoogleSurvivors-SDET-6",
+    "programStatus": "inactive",
+    "creationTime": null,
+    "lastModTime": null
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/putprogram/15635
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "programDescription": "Sdet-2",
+    "programName": "GoogleSurvivors-5",
+    "programId": "15635",
+    "programStatus": "active"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:32 GMT
+Via: 1.1 vegur
+
+{
+    "programId": 15635,
+    "programName": "GoogleSurvivors-5",
+    "programDescription": "Sdet-2",
+    "programStatus": "active",
+    "creationTime": null,
+    "lastModTime": null
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/roleProgramBatchStatus/U10637
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userRoleProgramBatches": [
+        {
+            "userRoleProgramBatchStatus": "Active",
+            "batchId": "8865"
+        }
+    ],
+    "roleId": "R01",
+    "userId": "U10637",
+    "programId": "15635"
+}
+HTTP/1.1 404 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:33 GMT
+Via: 1.1 vegur
+
+{
+    "message": "User not found with Role : R01 ",
+    "success": false
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/roleStatus
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userLinkedinUrl": "url3",
+    "userVisaStatus": "H4-EAD",
+    "userEduPg": "M.Com",
+    "userLastName": "Student",
+    "userMiddleName": "H",
+    "userPhoneNumber": "6045571604",
+    "userLocation": "Atlanta",
+    "userEduUg": "B.Com",
+    "userFirstName": "GoogleSurvivors-0",
+    "userRoleMaps": [
+        {
+            "userRoleStatus": "Active",
+            "roleId": "R03"
+        }
+    ],
+    "userComments": "This User is Student",
+    "userTimeZone": "EST"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:33 GMT
+Via: 1.1 vegur
+
+{
+    "userId": "U10638",
+    "userFirstName": "GoogleSurvivors-0",
+    "userLastName": "Student",
+    "userMiddleName": "H",
+    "userPhoneNumber": 6045571604,
+    "userLocation": "Atlanta",
+    "userTimeZone": "EST",
+    "userLinkedinUrl": "url3",
+    "userEduUg": "B.Com",
+    "userEduPg": "M.Com",
+    "userComments": "This User is Student",
+    "userVisaStatus": "H4-EAD"
+}
+Request method:	PUT
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/roleStatus/U10638
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userRoleStatus": "Inactive",
+    "roleId": "R03"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 35
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+UserStatus Updated for User: U10638
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/1829
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Submission deleted successfully",
+    "success": true
+}
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignments/4589
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Assignment deleted successfully",
+    "success": true
+}
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/U10638
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 24
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+Deleted User ID:  U10638
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/batches/8865
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-07-26T18:49:34.981+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/lms/batches/8865"
+}
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/deletebyprogid/15635
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:34 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-07-26T18:49:35.185+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/lms/deletebyprogid/15635"
+}
+Request method:	POST
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/saveprogram
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "programDescription": "RestAssured",
+    "programName": "Jul23-GoogleSurvivors-SDET-1733294759",
+    "programStatus": "Active"
+}
+HTTP/1.1 201 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 26 Jul 2023 18:49:35 GMT
+Via: 1.1 vegur
+
+{
+    "programId": 15636,
+    "programName": "Jul23-GoogleSurvivors-SDET-1733294759",
+    "programDescription": "RestAssured",
+    "programStatus": "Active",
+    "creationTime": "2023-07-26T18:49:35.389+00:00",
+    "lastModTime": "2023-07-26T18:49:35.389+00:00"
+}
+Request method:	DELETE
+Request URI:	https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/deletebyprogname/Jul23-GoogleSurvivors-SDET-1733294759
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 85
+Date: Wed, 26 Jul 2023 18:49:35 GMT
+Via: 1.1 vegur
+
+Message: Program Name -Jul23-GoogleSurvivors-SDET-1733294759 is deleted Successfully!
